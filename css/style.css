@@ -366,6 +366,7 @@
 /* Start Feedback central col-40 */
 
 .container-big .feedback .col{
+    height: 450px;
     margin-top: 50px;
 }
 
