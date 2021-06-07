@@ -318,8 +318,9 @@
 /* fourth-main */
 
 .fourth-main{
-    height: 1500px;
+    height: 1300px;
 }
+
 .fourth-main h1{
     font-size: 40px;
     padding: 50px 0;
@@ -332,6 +333,11 @@
 .fourth-main .row-1{
     height: 30%;
     margin-bottom: 150px;
+}
+
+.fourth-main .row-2{
+    height: 70%;
+    margin-bottom: 50px;
 }
 
 .fourth-main .row-1 .col img, .fourth-main .row-2 .col img{
