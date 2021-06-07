@@ -21,6 +21,11 @@
     margin: 0 auto;
 }
 
+.container-small{
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
 /* Utility */
 
 /* Color-text */
@@ -84,6 +89,8 @@
 .col-30{
     width: 30%;
 }
+
+/* Utility end */
 
 /* Start top bar 1 */
 
@@ -173,4 +180,30 @@
     width: 90%;
     padding-top: 20px;
     padding-left: 40px;
+}
+
+/* Start main */
+
+.central-main h1{
+    font-size: 40px;
+    padding-bottom: 50px;
+}
+
+.central-main label{
+    margin-right: 10px;
+}
+
+.central-main{
+    margin-top: 150px;
+}
+
+.central-main .col.float{
+    height: 900px;
+    background-color: #0061ff;
+    margin-top: 50px;
+}
+
+.central-main .col-central{
+    height: 900px;
+    margin: 0 5%;
 }
