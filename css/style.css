@@ -296,3 +296,21 @@
 .second-main .contact .col a{
     padding: 10px 80px;
 }
+
+/* third-main */
+
+.third-main .col img{
+    width: 90%;
+}
+
+.third-main .col.col-40{
+    margin-top: 30px;
+}
+
+.third-main .col.col-40 a{
+    color: black;
+    padding: 10px 20px;
+    border: 1px solid black;
+    text-decoration: none;
+    font-weight: 600;
+}
