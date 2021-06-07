@@ -68,6 +68,30 @@
     text-decoration: none;
 }
 
+/* Border gray */
+.border-gray{
+    border: 1px solid #d0d0d3;
+}
+
+/* Header column */
+.headerfirst-part{
+    line-height: 50px;
+    height: 50px;
+    border-bottom: 1px solid #d0d0d3;
+    text-align: center;
+}
+
+/* HR */
+.orizontal{
+    width: 20%;
+    margin: 50px 0;
+}
+
+/* Free trial button in column */
+.free-trial{
+    margin-top: 50px;
+}
+
 /* Col-size */
 
 .col-70{
@@ -189,6 +213,10 @@
     padding-bottom: 50px;
 }
 
+.central-main h3{
+    font-size: 16px;
+}
+
 .central-main label{
     margin-right: 10px;
 }
@@ -198,12 +226,52 @@
 }
 
 .central-main .col.float{
-    height: 900px;
-    background-color: #0061ff;
+    height: 1100px;
     margin-top: 50px;
 }
 
 .central-main .col-central{
     height: 900px;
     margin: 0 5%;
+}
+
+/* Content col */
+
+.second-part{
+    height: 100%;
+    padding: 40px 20px;
+}
+
+.second-part .detail-plan{
+    height: 500px;
+    margin-bottom: 50px;
+}
+
+.second-part .detail-plan .description-plan{
+    margin-bottom: 50px;
+}
+
+.second-part .detail-plan .function-plan{
+    margin-bottom: 50px;
+}
+
+.second-part .detail-plan .function-plan ul li{
+    list-style: none;
+    padding: 10px 0;
+}
+
+.second-part .detail-plan .function-plan a{
+    text-align: center;
+    padding: 10px 65px;
+}
+
+/* Content col highlights */
+
+.second-part .highlights ul li{
+    list-style: none;
+    padding: 10px 0;
+}
+
+.fas.fa-check{
+    color: #0061ff;
 }
