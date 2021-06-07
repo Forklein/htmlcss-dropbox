@@ -42,7 +42,7 @@
 
 /* Color-background */
 .bg-blue{
-    background-color: blue;
+    background-color: #0061ff;
 }
 
 .bg-black{
@@ -57,7 +57,7 @@
     background-color: #fff;
 }
 
-/* Color-background */
+/* Text-decoration */
 
 .decoration-none{
     text-decoration: none;
@@ -65,7 +65,61 @@
 
 /* Col-size */
 
-.top-bar .col-50{
-    width: 50%;
+.col-50{
+    width: calc(100% / 2);
+}
+
+/* Start top bar 1 */
+
+.top-bar{
     height: 80px;
+    line-height: 80px;
+}
+
+#logo{
+    vertical-align: middle;
+    margin-left: 20px;
+}
+
+.top-bar .col-left ul{
+    display: inline-block;
+}
+
+.top-bar .col-left ul li{
+    display: inline-block;
+    list-style:none;
+}
+
+.top-bar .col-left ul li a{
+    padding: 0 20px;
+}
+
+/* Start top bar 2 */
+
+.col-right{
+    text-align: right;
+    padding-right: 20px;
+}
+
+.top-bar .col-right ul{
+    display: inline-block;
+}
+
+.top-bar .col-right ul li{
+    display: inline-block;
+    list-style:none;
+}
+
+.top-bar .col-right ul li a{
+    padding: 0 20px;
+}
+
+.top-bar .col-right ul li a:last-child{
+    padding: 5px 15px;
+}
+
+/* Start main bar */
+
+.main-bar{
+    height: 700px;
 }
