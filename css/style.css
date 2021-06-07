@@ -114,6 +114,10 @@
     width: 30%;
 }
 
+.col-25{
+    width: 25%;
+}
+
 /* Utility end */
 
 /* Start top bar 1 */
@@ -357,4 +361,43 @@
 .fifth-main h1{
     font-size: 40px;
     padding-bottom: 20px;
+}
+
+/* Start Feedback central col-40 */
+
+.container-big .feedback .col{
+    margin-top: 50px;
+}
+
+.container-big .feedback .col.col-40{
+    background-color: #f5f5f5;
+    padding: 60px 40px;
+}
+
+.container-big .feedback .col.col-40 img{
+    width: 30%;
+}
+
+.container-big .feedback .col.col-40 p{
+    font-weight: 600;
+}
+
+/* Start Feedback col-30 */
+
+.container-big .feedback .col.col-30{
+    height: 450px;
+}
+
+.container-big .feedback .feedback-row{
+    height: 50%;
+}
+
+.feedback-row .min-col{
+    height: 100%;
+    width: 50%;
+    background-color: #0061ff;
+}
+
+.feedback-row .min-col img{
+    width: 50%;
 }
