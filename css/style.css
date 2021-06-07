@@ -314,3 +314,37 @@
     text-decoration: none;
     font-weight: 600;
 }
+
+/* fourth-main */
+
+.fourth-main h1{
+    font-size: 40px;
+    padding: 50px 0;
+}
+
+.fourth-main p{
+    font-weight: 600;
+}
+
+.fourth-main .row-1{
+    margin-bottom: 600px;
+}
+
+.fourth-main .row-1 .col img, .fourth-main .row-2 .col img{
+    width: 100%;    
+}
+
+.fourth-main .row-1 .col-central, .fourth-main .row-2 .col-central{
+    margin: 0 5%;
+}
+
+/* fifth-main */
+
+.fifth-main{
+    margin-top: 50px;
+}
+
+.fifth-main h1{
+    font-size: 40px;
+    padding-bottom: 20px;
+}
