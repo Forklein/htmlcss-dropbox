@@ -1,5 +1,71 @@
+/* Reset */
+
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.float{
+    float: left;
+}
+
+.clearfix::after{
+    content: '';
+    display: table;
+    clear: both;
+}
+
+.container-big{
+    margin: 0 auto;
+}
+
+/* Utility */
+
+/* Color-text */
+.text-black{
+    color: black;
+}
+
+.text-grey{
+    color: gray;
+}
+
+.text-white{
+    color: white;
+}
+
+.text-bordeaux{
+    color: #61082b;
+}
+
+/* Color-background */
+.bg-blue{
+    background-color: blue;
+}
+
+.bg-black{
+    background-color: black;
+}
+
+.bg-lightblue{
+    background-color: #b4d0e7;
+}
+
+.bg-white{
+    background-color: #fff;
+}
+
+/* Color-background */
+
+.decoration-none{
+    text-decoration: none;
+}
+
+/* Col-size */
+
+.top-bar .col-50{
+    width: 50%;
+    height: 80px;
 }
