@@ -275,3 +275,24 @@
 .fas.fa-check{
     color: #0061ff;
 }
+
+/* second-main */
+
+.second-main .contact{
+    margin: 50px 0;
+    border: 1px solid #d0d0d3;
+}
+
+.second-main .contact .col{
+    padding: 20px 20px;
+}
+
+.second-main .contact .col p{
+    padding-top: 40px;
+    font-size: 13px;
+    font-weight: 500;
+}
+
+.second-main .contact .col a{
+    padding: 10px 80px;
+}
