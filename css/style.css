@@ -502,6 +502,24 @@ body{
     height: 50px;
 }
 
+/* Text hover */
+
+.container-small .faq .row-faq:hover{
+    height: 150px;
+}
+
+.container-small .faq .row-faq:hover .hover-text{
+    visibility: visible;
+}
+
+.container-small .faq .row-faq .hover-text{
+    visibility: hidden;
+    padding-top: 50px;
+}
+
+/* Text hover */
+
+
 .container-small .faq .col .row-faq > i{
     position: absolute;
     right: 50px;
