@@ -477,21 +477,22 @@ body{
 /* Start footer */
 
 footer{
-    margin-top: 50px;
-    height: 500px;
+    margin-top: 100px;
     background-color: #000;
     color: white;
-    position: relative;
+}
+
+footer .row-1-footer{
+    padding: 50px 150px;
 }
 
 footer .row-1-footer .col-footer{
-    padding: 100px 150px;
-    width: 200px;
-    height: 350px;
+    margin-right: 80px;
 }
 
 footer .row-1-footer .col-footer h3{
     padding: 15px 0;
+    font-size: 25px;
 }
 
 footer .row-1-footer .col-footer ul li{
@@ -500,7 +501,6 @@ footer .row-1-footer .col-footer ul li{
 }
 
 footer .row-2-footer{
-    height: 150px;
     padding: 50px 150px;
 }
 
