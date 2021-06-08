@@ -144,6 +144,10 @@ body{
     list-style:none;
 }
 
+.top-bar .col-left ul li:hover{
+    border-bottom: 3px solid grey;
+}
+
 .top-bar .col-left ul li a{
     padding: 0 20px;
     font-weight: 600;
@@ -163,6 +167,10 @@ body{
 .top-bar .col-right ul li{
     display: inline-block;
     list-style:none;
+}
+
+.top-bar .col-right ul li:hover{
+    border-bottom: 3px solid grey;
 }
 
 .top-bar .col-right ul li a{
@@ -202,6 +210,19 @@ body{
     padding: 5px 15px;
 }
 
+.main-bar .box .col-30 i{
+    animation: move 1s infinite;
+}
+
+@keyframes move {
+    from{
+        transform: translateY(-50%);
+    }
+    to{
+        transform: translateY(0); 
+    }
+}
+
 .main-bar .box .col-30 h4{
     padding-top: 20px;
     padding-bottom: 40px;
@@ -212,6 +233,8 @@ body{
     padding-top: 20px;
     padding-left: 40px;
 }
+
+
 
 /* Start main */
 
