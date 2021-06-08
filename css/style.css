@@ -131,7 +131,7 @@ body{
     line-height: 80px;
     background-color: #fff;
     position: fixed;
-    top: 0;
+    z-index: 1;
 }
 
 #logo{
@@ -479,7 +479,7 @@ body{
 
 .feedback-section .col-60{
     font-size: 30px;
-    text-align: center;
+    padding-left: 350px;
 }
 
 .feedback-section .col-40 a{
