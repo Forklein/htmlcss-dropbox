@@ -432,3 +432,9 @@
 .min-col.col-8{
     background-color: #ffd830;
 }
+
+/* Start section in feedback */
+
+.container-big .feedback-section{
+    height: 300px;
+}
