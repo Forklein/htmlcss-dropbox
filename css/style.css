@@ -434,8 +434,13 @@ body{
 }
 
 /* Set background color for min-col */
-.min-col.col-1{
+.border-color{
     background-color: #a2d39b;
+    height: 100%;
+}
+.min-col.col-1{
+    background-color: #d0e9cd;
+    padding: 10px;
 }
 .min-col.col-2{
     background-color: #61082b;
