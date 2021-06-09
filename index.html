@@ -10,10 +10,13 @@
     <title>Dropbox Business</title>
 </head>
 <body>
-    <div class="container-big">
+    
+    <header>
 
-        <header>
+        <div class="container-big">
+
             <div class="top-bar clearfix">
+                <!-- Col left -->
                 <div class="col-left col-50 float">
                     <img id="logo" src="./img/logo-small.png" alt="Logo">
                     <ul>
@@ -22,6 +25,7 @@
                         <li><a class="decoration-none text-black" href="#">Piani e prezzi</a></li>
                     </ul>
                 </div>
+                <!-- Col right -->
                 <div class="col-right col-50 float">
                     <ul>
                         <li><a class="decoration-none text-black" href="#">Supporto</a></li>
@@ -31,13 +35,16 @@
                     </ul>
                 </div>
             </div>
+            <!-- Jumbotron -->
             <div class="main-bar bg-lightblue">
                 <div class="box clearfix">
+                    <!-- Text Jumbotron -->
                     <div class="text">
                         <h1>Tutto ciò che ti serve per il lavoro,
                             in un unico posto
                         </h1>
                     </div>
+                    <!-- Text Jumbotron with ahref and arrow -->
                     <div class="col-30 float">
                         <p>
                             Finalmente tutti i tuoi strumenti, contenuti e
@@ -50,22 +57,25 @@
                         <h4>Annulla in qualsiasi momento</h4>
                         <i class="fas fa-arrow-down fa-3x"></i>
                     </div>
+                    <!-- Image in Jumbotron -->
                     <div class="col-70 float">
                         <img src="./img/jumbo.png" alt="Img-1">
                     </div>
                 </div>
             </div>
-        </header>
 
-    </div>
+        </div>
+        
+    </header>
+    
+    <main>
 
-    <div class="container-small">
+        <div class="container-small">
 
-        <main>
             <section class="central-main clearfix">
                 <h1>Trova il piano Dropbox Business che fa per te</h1>
                 <form>
-
+                    <!-- Label radio -->
                     <label for="Fatturazione Mensile">
                         <input type="radio" id="Mensile" name="Fatturazione" value="Mensile">
                         <strong>Fatturazione Mensile</strong>
@@ -76,7 +86,7 @@
                     </label>
 
                 </form>
-                <!-- Start column -->
+                <!-- Start column left-->
                 <div class="col col-30 float border-gray">
 
                     <!-- First part -->
@@ -118,6 +128,7 @@
                     </div>
 
                 </div>
+                <!-- Start column central-->
                 <div class="col col-30 col-central float border-gray">
 
                     <!-- First part -->
@@ -160,6 +171,7 @@
                     </div>
 
                 </div>
+                <!-- Start column right-->
                 <div class="col col-30 float border-gray">
 
                     <!-- First part -->
@@ -356,124 +368,134 @@
 
             </section>
 
-        </main>
-
-    </div>
-
-    <div class="container-big">
-
-        <div class="feedback clearfix">
-            <div class="col col-30 float">
-
-                <div class="feedback-row clearfix">
-                    <div class="min-col col-1 float">
-                        <div class="border-color">
-                            <img src="./img/designit_2.svg">
-                        </div>                   
-                    </div>
-                    <div class="min-col col-2 float">
-                        <img src="./img/arizona_state_university.svg">
-                    </div>
-                </div>
-                <div class="feedback-row clearfix">
-                    <div class="min-col col-3 float">
-                        <img src="./img/university_of_florida.svg">
-                    </div>
-                    <div class="min-col col-4 float">
-                        <img src="./img/topps.svg">
-                    </div>
-                </div>
-
-            </div>
-            <div class="col col-40 float">
-                <img src="./img/designit.svg" alt="Designit-Logo">
-                <hr class="orizontal">
-                <p>
-                    I membri del nostro team lavorano costantemente in Paesi, fusi orari e
-                    uffici diversi. Ora molte soluzioni sono compatibili con queste esigenze,
-                    ma nessuna è facile quanto Dropbox e Dropbox Paper. Ora molte 
-                    soluzioni sono compatibili con queste esigenze, ma nessuna è facile
-                    quanto Dropbox Paper".
-                    <br><br>
-                    Morten Thomsen, Global IT Lead
-                </p>
-            </div>
-            <div class="col col-30 float">
-
-                <div class="feedback-row clearfix">
-                    <div class="min-col col-5 float">
-                        <img src="./img/world_bicycle_relief.svg">
-                    </div>
-                    <div class="min-col col-6 float">
-                        <img src="./img/hearst_corp.svg">
-                    </div>
-                </div>
-                <div class="feedback-row clearfix">
-                    <div class="min-col col-7 float">
-                        <img src="./img/lonely_planet.svg">
-                    </div>
-                    <div class="min-col col-8 float">
-                        <img src="./img/clear_channel.svg">
-                    </div>
-                </div>
-
-            </div>
         </div>
 
-        <section class="feedback-section bg-lightblue clearfix">
-
-            <div class="col col-60 float">
-                <h1 class="text-bordeaux">
-                    Porta Dropbox Business<br>
-                    nella tua azienda.
-                </h1>
+        <div class="container-big">
+    
+            <div class="feedback clearfix">
+                <!-- Col left -->
+                <div class="col col-30 float">
+    
+                    <div class="feedback-row clearfix">
+                        <div class="min-col col-1 float">
+                            <div class="border-color">
+                                <img src="./img/designit_2.svg">
+                            </div>                   
+                        </div>
+                        <div class="min-col col-2 float">
+                            <img src="./img/arizona_state_university.svg">
+                        </div>
+                    </div>
+                    <div class="feedback-row clearfix">
+                        <div class="min-col col-3 float">
+                            <img src="./img/university_of_florida.svg">
+                        </div>
+                        <div class="min-col col-4 float">
+                            <img src="./img/topps.svg">
+                        </div>
+                    </div>
+    
+                </div>
+                <!-- Col Central -->
+                <div class="col col-40 float">
+                    <img src="./img/designit.svg" alt="Designit-Logo">
+                    <hr class="orizontal">
+                    <p>
+                        I membri del nostro team lavorano costantemente in Paesi, fusi orari e
+                        uffici diversi. Ora molte soluzioni sono compatibili con queste esigenze,
+                        ma nessuna è facile quanto Dropbox e Dropbox Paper. Ora molte 
+                        soluzioni sono compatibili con queste esigenze, ma nessuna è facile
+                        quanto Dropbox Paper".
+                        <br><br>
+                        Morten Thomsen, Global IT Lead
+                    </p>
+                </div>
+                <!-- Col right -->
+                <div class="col col-30 float">
+    
+                    <div class="feedback-row clearfix">
+                        <div class="min-col col-5 float">
+                            <img src="./img/world_bicycle_relief.svg">
+                        </div>
+                        <div class="min-col col-6 float">
+                            <img src="./img/hearst_corp.svg">
+                        </div>
+                    </div>
+                    <div class="feedback-row clearfix">
+                        <div class="min-col col-7 float">
+                            <img src="./img/lonely_planet.svg">
+                        </div>
+                        <div class="min-col col-8 float">
+                            <img src="./img/clear_channel.svg">
+                        </div>
+                    </div>
+    
+                </div>
             </div>
-            <div class="col col-40 float">
-                <a class="decoration-none text-black" href="#">Inizia la tua prova gratuita</a>
-            </div>
-
-        </section>
-
-    </div>
-
-    <div class="container-small">
-        
-        <section class="faq">
-
-            <div class="col-main">
-                <h2>Domande frequenti</h2>
-            </div>
-            <div class="col">
-                <div class="row-faq">
-                    <p>Qual è la differenza tra Dropbox Business Standard e Dropbox Business Advanced?</p> <i class="fas fa-chevron-down"></i>
-                    <div class="hover-text">
-                        <p>Il piano Standard offre al tuo team 5 TB di spazio di archiviazione condiviso. Per i team che hanno bisogno di più spazio, i piani Advanced e Enterprise offrono tutto lo spazio necessario.</p>
+    
+            <section class="feedback-section bg-lightblue clearfix">
+    
+                <div class="col col-60 float">
+                    <h1 class="text-bordeaux">
+                        Porta Dropbox Business<br>
+                        nella tua azienda.
+                    </h1>
+                </div>
+                <div class="col col-40 float">
+                    <a class="decoration-none text-black" href="#">Inizia la tua prova gratuita</a>
+                </div>
+    
+            </section>
+    
+        </div>
+    
+        <div class="container-small">
+            
+            <section class="faq">
+    
+                <div class="col-main">
+                    <h2>Domande frequenti</h2>
+                </div>
+                <div class="col">
+                    <div class="row-faq">
+                        <p>Qual è la differenza tra Dropbox Business Standard e Dropbox Business Advanced?</p> <i class="fas fa-chevron-down"></i>
+                        <!-- Div hover -->
+                        <div class="hover-text">
+                            <p>Il piano Standard offre al tuo team 5 TB di spazio di archiviazione condiviso. Per i team che hanno bisogno di più spazio, i piani Advanced e Enterprise offrono tutto lo spazio necessario.</p>
+                        </div>
+                    </div>
+                    <div class="row-faq">
+                        <p>Qual è la differenza tra Dropbox Business Standard e Dropbox Business Advanced?</p> <i class="fas fa-chevron-down"></i>
+                        <!-- Div hover -->
+                        <div class="hover-text">
+                            <p>Il piano Standard offre al tuo team 5 TB di spazio di archiviazione condiviso. Per i team che hanno bisogno di più spazio, i piani Advanced e Enterprise offrono tutto lo spazio necessario.</p>
+                        </div>
+                    </div>
+                    <div class="row-faq">
+                        <p>Qual è la differenza tra Dropbox Business Standard e Dropbox Business Advanced?</p> <i class="fas fa-chevron-down"></i>
+                        <!-- Div hover -->
+                        <div class="hover-text">
+                            <p>Il piano Standard offre al tuo team 5 TB di spazio di archiviazione condiviso. Per i team che hanno bisogno di più spazio, i piani Advanced e Enterprise offrono tutto lo spazio necessario.</p>
+                        </div>
+                    </div>
+                    <div class="row-faq">
+                        <p>Qual è la differenza tra Dropbox Business Standard e Dropbox Business Advanced?</p> <i class="fas fa-chevron-down"></i>
+                        <!-- Div hover -->
+                        <div class="hover-text">
+                            <p>Il piano Standard offre al tuo team 5 TB di spazio di archiviazione condiviso. Per i team che hanno bisogno di più spazio, i piani Advanced e Enterprise offrono tutto lo spazio necessario.</p>
+                        </div>
                     </div>
                 </div>
-                <div class="row-faq">
-                    <p>Qual è la differenza tra Dropbox Business Standard e Dropbox Business Advanced?</p> <i class="fas fa-chevron-down"></i>
-                    <div class="hover-text">
-                        <p>Il piano Standard offre al tuo team 5 TB di spazio di archiviazione condiviso. Per i team che hanno bisogno di più spazio, i piani Advanced e Enterprise offrono tutto lo spazio necessario.</p>
-                    </div>
-                </div>
-                <div class="row-faq">
-                    <p>Qual è la differenza tra Dropbox Business Standard e Dropbox Business Advanced?</p> <i class="fas fa-chevron-down"></i>
-                    <div class="hover-text">
-                        <p>Il piano Standard offre al tuo team 5 TB di spazio di archiviazione condiviso. Per i team che hanno bisogno di più spazio, i piani Advanced e Enterprise offrono tutto lo spazio necessario.</p>
-                    </div>
-                </div>
-                <div class="row-faq">
-                    <p>Qual è la differenza tra Dropbox Business Standard e Dropbox Business Advanced?</p> <i class="fas fa-chevron-down"></i>
-                    <div class="hover-text">
-                        <p>Il piano Standard offre al tuo team 5 TB di spazio di archiviazione condiviso. Per i team che hanno bisogno di più spazio, i piani Advanced e Enterprise offrono tutto lo spazio necessario.</p>
-                    </div>
-                </div>
-            </div>
+    
+            </section>
 
-        </section>
-    </div>
-    <div class="container-big">
-        <footer>
+        </div>
+
+    </main>
+
+    <footer>
+
+        <div class="container-big">
 
             <div class="row-1-footer clearfix">
 
@@ -535,8 +557,9 @@
 
             </div>
 
-            
-        </footer>
-    </div>
+        </div>
+        
+    </footer>
+
 </body>
 </html>
